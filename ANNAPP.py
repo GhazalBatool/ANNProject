@@ -9,7 +9,8 @@ from sklearn.preprocessing import StandardScaler
 import joblib
 
 # Load the trained model (ANN)
-model = joblib.load("ann_model.joblib")
+#model = joblib.load("ann_model.joblib")
+model = joblib.load("models/ann_model.joblib")
 
 
 # Page title
