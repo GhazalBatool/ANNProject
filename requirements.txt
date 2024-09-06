@@ -1,0 +1,12 @@
+tensorflow
+keras
+streamlit
+opencv-python-headless
+numpy
+pandas
+image
+to_categorical
+load_digits
+StandardScaler
+dense
+sequential
