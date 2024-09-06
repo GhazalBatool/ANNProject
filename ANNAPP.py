@@ -5,13 +5,7 @@ from PIL import Image
 from sklearn.preprocessing import StandardScaler
 
 # Load the trained model (ANN)
-#model = tf.keras.models.load_model("ann_model.h5")
-import joblib
-
-# Load the trained model (ANN)
-#model = joblib.load("ann_model.joblib")
-model = joblib.load("models/ann_model.joblib")
-
+model = tf.keras.models.load_model("ann_model.h5")
 
 # Page title
 st.title("Digit Recognition using ANN")
